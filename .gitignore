@@ -1,0 +1,33 @@
+# Python environments
+.venv/
+yolo_env/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies
+node_modules/
+dist/
+build/
+
+# Generated files
+runs/
+predict/
+predict2/
+uploads/
+
+# Logs and editor files
+*.log
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
